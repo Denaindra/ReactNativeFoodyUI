@@ -101,12 +101,11 @@ const styles = StyleSheet.create({
   },
   OrderButton: {
     height: 62,
-    width: 335,
     backgroundColor: color.primary,
-    alignSelf: "center",
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
+    marginHorizontal:20, // or alignSelf: "center" with specify height,
     borderRadius:50
   },
 
